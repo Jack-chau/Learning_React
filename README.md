@@ -1,2 +1,2 @@
-This Repository is for leanring React!!! \n
+This Repository is for leanring React!!!
 Awesome >w<
