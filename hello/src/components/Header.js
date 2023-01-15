@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom' ;
 const navigation = [
   { name: 'Employees', href: '/Employees' },
   { name: 'Customers', href: '/Customers' },
-  { name: 'Projects', href: '/other' },
+  { name: 'Dictionary', href: '/Dictionary' },
   { name: 'Calendar', href: '/other2' },
 ]
 
@@ -141,7 +141,6 @@ export default function Header( props ) {
                 </div>
               </div>
             </div>
-
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pt-2 pb-3">
                 {navigation.map((item) => (
